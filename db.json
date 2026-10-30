@@ -1,0 +1,451 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "name": "System",
+      "surname": "Admin",
+      "province": "Bangkok",
+      "level": null,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150/000000/FFF?text=Admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "name": "Somchai",
+      "surname": "Jaidee",
+      "province": "Chiang Mai",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150/007BFF/FFF?text=U1"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "name": "Somsri",
+      "surname": "Rakdee",
+      "province": "Phuket",
+      "level": 2,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150/28A745/FFF?text=U2"
+    },
+    {
+      "id": 4,
+      "username": "user3",
+      "name": "Mana",
+      "surname": "Manee",
+      "province": "Khon Kaen",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 5,
+      "username": "user4",
+      "name": "Piti",
+      "surname": "Chujai",
+      "province": "Bangkok",
+      "level": 3,
+      "isActive": false,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 6,
+      "username": "user5",
+      "name": "Weera",
+      "surname": "Wong",
+      "province": "Chiang Rai",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 7,
+      "username": "user6",
+      "name": "Nida",
+      "surname": "Kum",
+      "province": "Chonburi",
+      "level": 4,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 8,
+      "username": "user7",
+      "name": "Aree",
+      "surname": "Doo",
+      "province": "Songkhla",
+      "level": 2,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 9,
+      "username": "user8",
+      "name": "Suda",
+      "surname": "Yai",
+      "province": "Nakhon Ratchasima",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 10,
+      "username": "user9",
+      "name": "Kitti",
+      "surname": "Suk",
+      "province": "Surat Thani",
+      "level": 3,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 11,
+      "username": "user10",
+      "name": "Wichai",
+      "surname": "Mak",
+      "province": "Ayutthaya",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 12,
+      "username": "user11",
+      "name": "Amporn",
+      "surname": "Dee",
+      "province": "Udon Thani",
+      "level": 2,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 13,
+      "username": "user12",
+      "name": "Thida",
+      "surname": "Sook",
+      "province": "Phitsanulok",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 14,
+      "username": "user13",
+      "name": "Sompong",
+      "surname": "Keng",
+      "province": "Nakhon Si Thammarat",
+      "level": 4,
+      "isActive": false,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 15,
+      "username": "user14",
+      "name": "Malee",
+      "surname": "Suay",
+      "province": "Krabi",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 16,
+      "username": "user15",
+      "name": "Bancha",
+      "surname": "Lom",
+      "province": "Chiang Mai",
+      "level": 2,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 17,
+      "username": "user16",
+      "name": "Chana",
+      "surname": "Chok",
+      "province": "Trang",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 18,
+      "username": "user17",
+      "name": "Daranee",
+      "surname": "Chan",
+      "province": "Lampang",
+      "level": 3,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 19,
+      "username": "user18",
+      "name": "Surasak",
+      "surname": "Mon",
+      "province": "Rayong",
+      "level": 2,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    },
+    {
+      "id": 20,
+      "username": "user19",
+      "name": "Pranee",
+      "surname": "Klin",
+      "province": "Nonthaburi",
+      "level": 1,
+      "isActive": true,
+      "profileImage": "https://placehold.co/150"
+    }
+  ],
+  "levels": [
+    { "id": 1, "name": "Level 1 (Beginner)", "passCriteriaScore": 50 },
+    { "id": 2, "name": "Level 2 (Intermediate)", "passCriteriaScore": 60 },
+    { "id": 3, "name": "Level 3 (Advanced)", "passCriteriaScore": 70 },
+    { "id": 4, "name": "Level 4 (Expert)", "passCriteriaScore": 80 }
+  ],
+  "benefits": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "title": "Basic Access",
+      "description": "Access to standard CA?T services."
+    },
+    {
+      "id": 2,
+      "levelId": 2,
+      "title": "Priority Support",
+      "description": "Get faster response from our support team."
+    },
+    {
+      "id": 3,
+      "levelId": 3,
+      "title": "Free Merchandise",
+      "description": "Receive a free CA?T T-Shirt annually."
+    },
+    {
+      "id": 4,
+      "levelId": 4,
+      "title": "VIP Lounge",
+      "description": "Access to VIP lounges worldwide."
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "serviceName": "Standard Booking",
+      "badgeImage": "https://placehold.co/50/gray/white?text=L1"
+    },
+    {
+      "id": 2,
+      "levelId": 2,
+      "serviceName": "Fast Lane Booking",
+      "badgeImage": "https://placehold.co/50/blue/white?text=L2"
+    },
+    {
+      "id": 3,
+      "levelId": 3,
+      "serviceName": "Dedicated Consultant",
+      "badgeImage": "https://placehold.co/50/purple/white?text=L3"
+    },
+    {
+      "id": 4,
+      "levelId": 4,
+      "serviceName": "All-inclusive Travel",
+      "badgeImage": "https://placehold.co/50/gold/black?text=L4"
+    }
+  ],
+  "elearning": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "title": "Introduction to CA?T Passport",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "id": 2,
+      "levelId": 2,
+      "title": "Maximizing Your Benefits",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "id": 3,
+      "levelId": 3,
+      "title": "Advanced Usage Guide",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "id": 4,
+      "levelId": 4,
+      "title": "VIP Secrets Revealed",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "questionText": "What is the primary purpose of the CA?T Passport?",
+      "options": ["Gaming", "A? Service", "Cooking", "Driving"],
+      "correctAnswer": "A? Service"
+    },
+    {
+      "id": 2,
+      "levelId": 1,
+      "questionText": "What is the starting level for all registered users?",
+      "options": ["Level 0", "Level 1", "Level 2", "Level 4"],
+      "correctAnswer": "Level 1"
+    },
+    {
+      "id": 3,
+      "levelId": 1,
+      "questionText": "Where can you view your current user level after logging in?",
+      "options": ["Footer", "Dashboard", "Settings", "Admin panel"],
+      "correctAnswer": "Dashboard"
+    },
+    {
+      "id": 4,
+      "levelId": 1,
+      "questionText": "Is a real backend database required for this project?",
+      "options": ["Yes", "No", "Only for production", "Optional"],
+      "correctAnswer": "No"
+    },
+    {
+      "id": 5,
+      "levelId": 1,
+      "questionText": "Which framework is used for building this frontend application?",
+      "options": ["React", "Angular", "Vue 3", "Svelte"],
+      "correctAnswer": "Vue 3"
+    },
+
+    {
+      "id": 6,
+      "levelId": 2,
+      "questionText": "Which benefit is unlocked at Level 2?",
+      "options": ["Basic Access", "Priority Support", "VIP Lounge", "Free Merchandise"],
+      "correctAnswer": "Priority Support"
+    },
+    {
+      "id": 7,
+      "levelId": 2,
+      "questionText": "Do you need to finish the eLearning before taking the exam?",
+      "options": ["Yes", "No", "Only for VIP", "Depends on Admin"],
+      "correctAnswer": "No"
+    },
+    {
+      "id": 8,
+      "levelId": 2,
+      "questionText": "What CSS framework is required across the project?",
+      "options": ["Bootstrap", "Tailwind CSS", "Bulma", "Foundation"],
+      "correctAnswer": "Tailwind CSS"
+    },
+    {
+      "id": 9,
+      "levelId": 2,
+      "questionText": "Where is temporary state like login status stored?",
+      "options": ["LocalStorage", "Pinia", "Cookies", "SessionStorage"],
+      "correctAnswer": "Pinia"
+    },
+    {
+      "id": 10,
+      "levelId": 2,
+      "questionText": "Where must the final web application be deployed?",
+      "options": ["Heroku", "Vercel", "AWS", "Firebase"],
+      "correctAnswer": "Vercel"
+    },
+
+    {
+      "id": 11,
+      "levelId": 3,
+      "questionText": "What is the pass criteria score typically set for Level 3?",
+      "options": ["50", "60", "70", "80"],
+      "correctAnswer": "70"
+    },
+    {
+      "id": 12,
+      "levelId": 3,
+      "questionText": "What component technique is evaluated in the rubric?",
+      "options": ["Props and Emits", "Directives", "Mixins", "Prototypes"],
+      "correctAnswer": "Props and Emits"
+    },
+    {
+      "id": 13,
+      "levelId": 3,
+      "questionText": "What information is recorded in the exam history upon completion?",
+      "options": ["Score, result, and date-time", "Only score", "User mood", "IP address"],
+      "correctAnswer": "Score, result, and date-time"
+    },
+    {
+      "id": 14,
+      "levelId": 3,
+      "questionText": "Can an admin deactivate a user due to usage problems?",
+      "options": ["Yes", "No", "Only system", "Depends on user"],
+      "correctAnswer": "Yes"
+    },
+    {
+      "id": 15,
+      "levelId": 3,
+      "questionText": "What routing feature is used for user profile subpages?",
+      "options": ["Nested route", "Redirect", "Lazy loading", "Hash mode"],
+      "correctAnswer": "Nested route"
+    },
+
+    {
+      "id": 16,
+      "levelId": 4,
+      "questionText": "What is the highest level a user can achieve in this application?",
+      "options": ["Level 2", "Level 3", "Level 4", "Level 5"],
+      "correctAnswer": "Level 4"
+    },
+    {
+      "id": 17,
+      "levelId": 4,
+      "questionText": "What format should be included in the GitHub repository submission?",
+      "options": ["README.md", "CONTRIBUTING.md", "LICENSE", "CHANGELOG.md"],
+      "correctAnswer": "README.md"
+    },
+    {
+      "id": 18,
+      "levelId": 4,
+      "questionText": "How long should the demo video clip be?",
+      "options": ["1 minute", "2-3 minutes", "5-10 minutes", "15 minutes"],
+      "correctAnswer": "2-3 minutes"
+    },
+    {
+      "id": 19,
+      "levelId": 4,
+      "questionText": "What happens immediately when a user passes the upgrade exam?",
+      "options": ["Level is upgraded in Pinia", "Account is deleted", "App crashes", "Nothing"],
+      "correctAnswer": "Level is upgraded in Pinia"
+    },
+    {
+      "id": 20,
+      "levelId": 4,
+      "questionText": "Which username redirects to the admin page regardless of password?",
+      "options": ["admin", "root", "superuser", "administrator"],
+      "correctAnswer": "admin"
+    }
+  ],
+  "exam_history": [
+    {
+      "id": 1,
+      "userId": 3,
+      "levelAttempted": 1,
+      "score": 100,
+      "isPassed": true,
+      "dateTime": "2026-08-10T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "levelAttempted": 1,
+      "score": 25,
+      "isPassed": false,
+      "dateTime": "2026-08-12T14:30:00Z"
+    }
+  ]
+}

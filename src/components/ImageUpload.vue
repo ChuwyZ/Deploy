@@ -1,0 +1,55 @@
+<script setup lang="ts">
+import Uploader from 'vue-media-upload'
+import { computed, ref } from 'vue'
+import { authenUser } from '@/stores/authen'
+
+interface UploadMedia {
+  name: string
+  url?: string
+  size?: number
+  type?: string
+}
+interface Props {
+  max?: number
+}
+const { max = 1 } = defineProps<Props>()
+
+const authen = authenUser()
+const modelValue = defineModel<string[]>({ default: () => [] })
+
+const convertStringToMedia = (str: string[]): UploadMedia[] => {
+  return str.map((element) => {
+    return {
+      name: element,
+    }
+  })
+}
+
+const convertMediaToString = (media: UploadMedia[]): string[] => {
+  const output: string[] = []
+  media.forEach((element) => {
+    output.push(element.name)
+  })
+  return output
+}
+
+const media = ref<UploadMedia[]>(convertStringToMedia(modelValue.value))
+const uploadUrl = ref(import.meta.env.VITE_UPLOAD_URL)
+const onChanged = (files: UploadMedia[]): void => {
+  modelValue.value = convertMediaToString(files)
+}
+// the register page uploads before the user has a token, so only send the header when logged in
+const authorizeHeader = computed(() => {
+  return authen.token ? { authorization: authen.authorizationHeader } : {}
+})
+</script>
+
+<template>
+  <Uploader
+    :server="uploadUrl"
+    @change="onChanged"
+    :media="media"
+    :headers="authorizeHeader"
+    :max="max"
+  ></Uploader>
+</template>
